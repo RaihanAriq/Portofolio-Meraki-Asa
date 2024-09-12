@@ -18,13 +18,13 @@ st.set_page_config(
 )
 
 # -------------------------------------- Read dataset ------------------------------
-df = pd.read_pickle("data/data_sales_dash.pkl")
+df = pd.read_pickle("data_sales_dash.pkl")
 
 # -------------------------------------- Membuat Sidebar --------------------
 with st.sidebar:
     # Menambahkan Logo Pribadi
     st.write("Hello 👋")
-    st.image("asset\data-science.png")
+    st.image("data-science.png")
     st.write("""
              Saya Toni Andreas Susanto mempersembahkan Dashboard Analisis 
              Penjualan Supermarket, sebuah alat yang memudahkan menganalisis 
